@@ -41,7 +41,7 @@
 				$('.inner_slider').last().after( $('.inner_slider').first() );
 			} );
 		};
-		//setInterval(function(){ auto_next() }, 6000);
+		setInterval(function(){ auto_next() }, 6000);
 		$('.prev').on( 'click', function() {
 				$('.slider_wrapper').animate({left: '0%'}, 600, function(){
 					$('.slider_wrapper').css('left', '-100%');
